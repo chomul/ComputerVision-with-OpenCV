@@ -1,41 +1,78 @@
-# Prerequisites
+# === [Prerequisites & Compiled Objects] ===
 *.d
-
-# Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
+# === [Precompiled Headers & Linker Files] ===
 *.gch
 *.pch
-
-# Linker files
 *.ilk
-
-# Debugger Files
 *.pdb
 
-# Compiled Dynamic libraries
+# === [Libraries & Executables] ===
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
 *.exe
 *.out
 *.app
 
-# debug information files
+# === [Fortran & Debug Info] ===
+*.mod
+*.smod
 *.dwo
+
+# === [Documents & Media (User Requested)] ===
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+
+# === [Computer Vision & Deep Learning Models] ===
+# 모델 가중치 및 설정 파일 (OpenCV, PyTorch, ONNX 등)
+*.weights
+*.h5
+*.pb
+*.onnx
+*.caffemodel
+*.prototxt
+*.pt
+*.pth
+*.t7
+*.model
+
+# === [Build Systems (CMake & IDE)] ===
+# C++ 프로젝트 빌드 시 생성되는 폴더들
+[Bb]uild/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install/
+Makefile
+.vscode/
+.vs/
+bin/
+lib/
+out/
+x64/
+x86/
+
+# === [Datasets & Logs] ===
+# 대용량 데이터셋 및 결과 저장 폴더
+data/
+datasets/
+test_results/
+runs/
+logs/
+*.log
+
+# === [OS Generated Files] ===
+.DS_Store
+Thumbs.db
