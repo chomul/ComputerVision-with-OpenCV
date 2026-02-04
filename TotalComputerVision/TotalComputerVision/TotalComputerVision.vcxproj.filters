@@ -18,10 +18,16 @@
     <ClCompile Include="TotalComputerVision.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="02. Linear Filtering.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01. Image Formation.cpp">
       <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="02. Linear Filtering.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
