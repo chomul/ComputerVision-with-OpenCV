@@ -127,11 +127,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="02. Linear Filtering.cpp" />
+    <ClCompile Include="03. Edge &amp; Corner Detection.cpp" />
     <ClCompile Include="TotalComputerVision.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01. Image Formation.cpp" />
     <ClInclude Include="02. Linear Filtering.h" />
+    <ClInclude Include="03. Edge &amp; Corner Detection.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

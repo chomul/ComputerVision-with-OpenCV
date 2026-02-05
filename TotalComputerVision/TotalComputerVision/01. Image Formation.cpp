@@ -50,7 +50,7 @@ void Fun01()
 {
     cv::Mat image = cv::imread("Images/input.jpg");
     if (image.empty()) {
-        std::cerr << "이미지를 찾을 수 없네, 경로를 확인하게!" << std::endl;
+        std::cerr << "이미지를 찾을 수 없음!" << std::endl;
         return;
     }
 
