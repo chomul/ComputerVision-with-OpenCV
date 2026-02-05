@@ -12,12 +12,16 @@ int main()
         return -1;
     }
 
-    cv::namedWindow("Original", cv::WINDOW_NORMAL);
-    cv::imshow("Original", image);
+    // 시간 측정
+    auto start = std::chrono::steady_clock::now();
 
     cv::Mat edge = detectSobelEdge(image);
     cv::namedWindow("edge", cv::WINDOW_NORMAL);
     cv::imshow("edge", edge);
+
+    auto end = std::chrono::steady_clock::now();
+    std::chrono::duration<double> elapsed_seconds = end - start;
+    std::cout << "Time in seconds : " << elapsed_seconds.count() << std::endl;
 
     cv::waitKey(0);
     return 0;
