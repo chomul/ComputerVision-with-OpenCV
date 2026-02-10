@@ -24,6 +24,9 @@
     <ClCompile Include="03. Edge &amp; Corner Detection.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="04. Hough Transform.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01. Image Formation.cpp">
@@ -35,5 +38,19 @@
     <ClInclude Include="03. Edge &amp; Corner Detection.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="04. Hough Transform.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\input.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Images\input2.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Images\Circle.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
   </ItemGroup>
 </Project>

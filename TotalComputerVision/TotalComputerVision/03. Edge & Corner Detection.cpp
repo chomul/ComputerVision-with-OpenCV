@@ -47,7 +47,7 @@ cv::Mat applySeparableGaussian(const cv::Mat& gray) {
     return dst;
 }
 
-// Gx 계산 예시 (Gy는 커널 방향만 바꾸면 되네)
+// Gx 계산 예시 
 cv::Mat computeSeparableSobelX(const cv::Mat& gray_blur) {
     cv::Mat temp = cv::Mat::zeros(gray_blur.size(), CV_32FC1);
     cv::Mat gradX = cv::Mat::zeros(gray_blur.size(), CV_32FC1);
