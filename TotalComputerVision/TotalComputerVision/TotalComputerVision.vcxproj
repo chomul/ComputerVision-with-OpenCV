@@ -129,6 +129,7 @@
     <ClCompile Include="02. Linear Filtering.cpp" />
     <ClCompile Include="03. Edge &amp; Corner Detection.cpp" />
     <ClCompile Include="04. Hough Transform.cpp" />
+    <ClCompile Include="05. Morphology.cpp" />
     <ClCompile Include="TotalComputerVision.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +137,7 @@
     <ClInclude Include="02. Linear Filtering.h" />
     <ClInclude Include="03. Edge &amp; Corner Detection.h" />
     <ClInclude Include="04. Hough Transform.h" />
+    <ClInclude Include="05. Morphology.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Images\Circle.jpg" />

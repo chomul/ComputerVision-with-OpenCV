@@ -27,6 +27,9 @@
     <ClCompile Include="04. Hough Transform.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="05. Morphology.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01. Image Formation.cpp">
@@ -39,6 +42,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="04. Hough Transform.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="05. Morphology.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

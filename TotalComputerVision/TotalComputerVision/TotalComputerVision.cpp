@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
-#include "04. Hough Transform.h"
+#include "05. Morphology.h"
 
 int main()
 {
@@ -12,15 +12,12 @@ int main()
         return -1;
     }
 
-    /*
-    cv::Mat HoughLines = detectHoughLines(image);
-    cv::namedWindow("HoughLines", cv::WINDOW_NORMAL);
-    cv::imshow("HoughLines", HoughLines);
-    */
+    cv::namedWindow("Original", cv::WINDOW_NORMAL);
+    cv::imshow("Original", image);
 
-    cv::Mat CircleLines = detectHoughCircles(image);
-    cv::namedWindow("CircleLines", cv::WINDOW_NORMAL);
-    cv::imshow("CircleLines", CircleLines);
+    cv::Mat Morphology = applyMorphology(image, MorphologyType::Erosion);
+    cv::namedWindow("Morphology", cv::WINDOW_NORMAL);
+    cv::imshow("Morphology", Morphology);
 
     cv::waitKey(0);
     return 0;
