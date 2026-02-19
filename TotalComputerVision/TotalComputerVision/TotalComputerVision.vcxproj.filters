@@ -30,6 +30,9 @@
     <ClCompile Include="05. Morphology.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="06. Contour Detection &amp; Features.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01. Image Formation.cpp">
@@ -47,6 +50,9 @@
     <ClInclude Include="05. Morphology.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="06. Contour Detection &amp; Features.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Images\input.jpg">
@@ -56,6 +62,9 @@
       <Filter>리소스 파일</Filter>
     </Image>
     <Image Include="Images\Circle.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Images\BinaryImage.jpg">
       <Filter>리소스 파일</Filter>
     </Image>
   </ItemGroup>

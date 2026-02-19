@@ -130,6 +130,7 @@
     <ClCompile Include="03. Edge &amp; Corner Detection.cpp" />
     <ClCompile Include="04. Hough Transform.cpp" />
     <ClCompile Include="05. Morphology.cpp" />
+    <ClCompile Include="06. Contour Detection &amp; Features.cpp" />
     <ClCompile Include="TotalComputerVision.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -138,8 +139,10 @@
     <ClInclude Include="03. Edge &amp; Corner Detection.h" />
     <ClInclude Include="04. Hough Transform.h" />
     <ClInclude Include="05. Morphology.h" />
+    <ClInclude Include="06. Contour Detection &amp; Features.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Images\BinaryImage.jpg" />
     <Image Include="Images\Circle.jpg" />
     <Image Include="Images\input.jpg" />
     <Image Include="Images\input2.jpg" />
