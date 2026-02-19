@@ -3,6 +3,7 @@
 #include <cmath>
 #include <vector>
 #include "06. Contour Detection & Features.h"
+#include "07. Labeling.h"
 
 int main()
 {
@@ -17,7 +18,9 @@ int main()
     // cv::namedWindow("Original", cv::WINDOW_NORMAL);
     cv::imshow("Original", image);
 
-	analyzeContours(image); 
+	analyzeContours(image);
+
+	labelingPractice(image); 
     
     cv::waitKey(0);
     return 0;

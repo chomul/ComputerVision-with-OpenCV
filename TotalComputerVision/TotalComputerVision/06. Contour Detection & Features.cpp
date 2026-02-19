@@ -24,7 +24,8 @@ void analyzeContours(const cv::Mat& src)
         double area = m.m00; // 면적
 
         // 너무 작은 노이즈는 무시
-        if (area > 100) {
+        if (area > 100) 
+        {
             // 무게중심 계산
             int cx = static_cast<int>(m.m10 / m.m00);
             int cy = static_cast<int>(m.m01 / m.m00);
@@ -34,6 +35,9 @@ void analyzeContours(const cv::Mat& src)
             cv::circle(result, cv::Point(cx, cy), 5, cv::Scalar(255, 0, 0), -1);
 
             std::cout << "Contour #" << i << " Area: " << area << std::endl;
+        
+            cv::putText(result, std::to_string(i), cv::Point(cx, cy - 5),
+                cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0, 255, 0), 1);
         }
     }
     cv::imshow("Contour Analysis", result);

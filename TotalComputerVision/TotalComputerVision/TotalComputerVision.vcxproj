@@ -131,6 +131,7 @@
     <ClCompile Include="04. Hough Transform.cpp" />
     <ClCompile Include="05. Morphology.cpp" />
     <ClCompile Include="06. Contour Detection &amp; Features.cpp" />
+    <ClCompile Include="07. Labeling.cpp" />
     <ClCompile Include="TotalComputerVision.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -140,6 +141,7 @@
     <ClInclude Include="04. Hough Transform.h" />
     <ClInclude Include="05. Morphology.h" />
     <ClInclude Include="06. Contour Detection &amp; Features.h" />
+    <ClInclude Include="07. Labeling.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Images\BinaryImage.jpg" />
