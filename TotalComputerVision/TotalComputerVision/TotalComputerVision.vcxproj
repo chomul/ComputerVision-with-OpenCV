@@ -134,6 +134,7 @@
     <ClCompile Include="07. Labeling.cpp" />
     <ClCompile Include="09. Perspective Transform.cpp" />
     <ClCompile Include="10. Histogram.cpp" />
+    <ClCompile Include="11. Feature Point Detection &amp; Matching.cpp" />
     <ClCompile Include="TotalComputerVision.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -147,6 +148,7 @@
     <ClInclude Include="08. Watershed.h" />
     <ClInclude Include="09. Perspective Transform.h" />
     <ClInclude Include="10. Histogram.h" />
+    <ClInclude Include="11. Feature Point Detection &amp; Matching.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Images\BinaryImage.jpg" />

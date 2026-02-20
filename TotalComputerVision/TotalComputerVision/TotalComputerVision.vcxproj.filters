@@ -42,6 +42,9 @@
     <ClCompile Include="10. Histogram.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11. Feature Point Detection &amp; Matching.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01. Image Formation.cpp">
@@ -72,6 +75,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="10. Histogram.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="11. Feature Point Detection &amp; Matching.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
