@@ -27,10 +27,10 @@ void labelingPractice(const cv::Mat& src)
         int area = p[cv::ConnectedComponentsTypes::CC_STAT_AREA];
 
         // 너무 작은 노이즈 제거
-        if (area < 50) continue;
+        if (area < 30) continue;
 
         // 3. 바운딩 박스 그리기
-        cv::rectangle(result, cv::Rect(x, y, width, height), cv::Scalar(255, 0, 0), 2);
+        cv::rectangle(result, cv::Rect(x, y, width, height), area > 10000? cv::Scalar(0, 0, 255) : cv::Scalar(255, 0, 0), 2);
 
         // 객체 번호 써넣기
         cv::putText(result, std::to_string(i), cv::Point(x, y - 5),

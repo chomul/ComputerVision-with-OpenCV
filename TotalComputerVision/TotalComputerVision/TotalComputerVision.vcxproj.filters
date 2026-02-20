@@ -59,6 +59,9 @@
     <ClInclude Include="07. Labeling.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="08. Watershed.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Images\input.jpg">

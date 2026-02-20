@@ -142,6 +142,7 @@
     <ClInclude Include="05. Morphology.h" />
     <ClInclude Include="06. Contour Detection &amp; Features.h" />
     <ClInclude Include="07. Labeling.h" />
+    <ClInclude Include="08. Watershed.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Images\BinaryImage.jpg" />
