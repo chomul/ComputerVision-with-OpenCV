@@ -2,13 +2,12 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
-#include "06. Contour Detection & Features.h"
-#include "08. Watershed.h"
+#include "09. Perspective Transform.h"
 
 int main()
 {
     
-    cv::Mat image = cv::imread("Images/Watershed.jpg");
+    cv::Mat image = cv::imread("Images/perspective transform.jpg");
     if (image.empty()) 
     {
         std::cerr << "이미지를 찾을 수 없음" << std::endl;
@@ -18,7 +17,7 @@ int main()
     // cv::namedWindow("Original", cv::WINDOW_NORMAL);
     cv::imshow("Original", image);
 
-    performWatershed(image);
+    deskewImage(image);
     
     cv::waitKey(0);
     return 0;

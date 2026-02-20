@@ -36,6 +36,9 @@
     <ClCompile Include="07. Labeling.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="09. Perspective Transform.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01. Image Formation.cpp">
@@ -60,6 +63,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="08. Watershed.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="09. Perspective Transform.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
