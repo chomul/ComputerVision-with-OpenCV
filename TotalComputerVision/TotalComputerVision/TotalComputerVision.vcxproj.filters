@@ -45,6 +45,9 @@
     <ClCompile Include="11. Feature Point Detection &amp; Matching.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="12. Template Matching &amp; Haar Cascade.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01. Image Formation.cpp">
@@ -94,5 +97,10 @@
     <Image Include="Images\BinaryImage.jpg">
       <Filter>리소스 파일</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="12. Template Matching &amp; Haar Cascade.h">
+      <Filter>헤더 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -135,6 +135,7 @@
     <ClCompile Include="09. Perspective Transform.cpp" />
     <ClCompile Include="10. Histogram.cpp" />
     <ClCompile Include="11. Feature Point Detection &amp; Matching.cpp" />
+    <ClCompile Include="12. Template Matching &amp; Haar Cascade.cpp" />
     <ClCompile Include="TotalComputerVision.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -155,6 +156,9 @@
     <Image Include="Images\Circle.jpg" />
     <Image Include="Images\input.jpg" />
     <Image Include="Images\input2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="12. Template Matching &amp; Haar Cascade.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
