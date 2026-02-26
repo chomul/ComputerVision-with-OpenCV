@@ -136,6 +136,7 @@
     <ClCompile Include="10. Histogram.cpp" />
     <ClCompile Include="11. Feature Point Detection &amp; Matching.cpp" />
     <ClCompile Include="12. Template Matching &amp; Haar Cascade.cpp" />
+    <ClCompile Include="13. VideoProcessing.cpp" />
     <ClCompile Include="TotalComputerVision.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +151,7 @@
     <ClInclude Include="09. Perspective Transform.h" />
     <ClInclude Include="10. Histogram.h" />
     <ClInclude Include="11. Feature Point Detection &amp; Matching.h" />
+    <ClInclude Include="13. VideoProcessing.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Images\BinaryImage.jpg" />
